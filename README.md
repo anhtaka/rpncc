@@ -1,5 +1,5 @@
 # rpncs
-[![Build Status](https://travis-ci.org/TsutomuNakamura/rpncc.svg?branch=master)](https://travis-ci.org/TsutomuNakamura/rpncs) 
+[![Node.js Package](https://github.com/anhtaka/rpncc/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/anhtaka/rpncc/actions/workflows/npm-publish.yml)
 [![npm](https://img.shields.io/npm/v/rpncs.svg)](https://npmjs.com/package/rpncs) 
 [![GitHub license](https://img.shields.io/github/license/anhtaka/rpncc)](https://github.com/anhtaka/rpncc)
 [![npm total downloads](https://img.shields.io/npm/dt/rpncs.svg)](https://github.com/anhtaka/rpncc)
