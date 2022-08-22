@@ -1,8 +1,8 @@
-# rpncc
-[![Build Status](https://travis-ci.org/TsutomuNakamura/rpncc.svg?branch=master)](https://travis-ci.org/TsutomuNakamura/rpncc) 
-[![npm](https://img.shields.io/npm/v/rpncc.svg)](https://npmjs.com/package/rpncc) 
-[![GitHub license](https://img.shields.io/github/license/TsutomuNakamura/rpncc.svg)](https://github.com/TsutomuNakamura/rpncc)
-[![npm total downloads](https://img.shields.io/npm/dt/rpncc.svg)](https://github.com/TsutomuNakamura/rpncc)
+# rpncs
+[![Build Status](https://travis-ci.org/TsutomuNakamura/rpncc.svg?branch=master)](https://travis-ci.org/TsutomuNakamura/rpncs) 
+[![npm](https://img.shields.io/npm/v/rpncs.svg)](https://npmjs.com/package/rpncs) 
+[![GitHub license](https://img.shields.io/github/license/TsutomuNakamura/rpncs.svg)](https://github.com/TsutomuNakamura/rpncs)
+[![npm total downloads](https://img.shields.io/npm/dt/rpncs.svg)](https://github.com/TsutomuNakamura/rpncs)
 
 This is a program for Reverse Polish notation utility.
 It converts or calculates a expressions to Reverse Polish notation.
@@ -10,12 +10,12 @@ It converts or calculates a expressions to Reverse Polish notation.
 ## Use examples
 First, install this module in your project.
 ```console
-$ npm install rpncc
+$ npm install rpncs
 ```
 
 Import this module in your source code and call like below.
 ```javascript
-var Rpn = require('rpncc');
+var Rpn = require('rpncs');
 var rpn = new Rpn();
 
 console.log(rpn.convert(["1", "+", "2", "*", "3"]));     // -> [ '1', '2', '3', '*', '+' ]
@@ -24,7 +24,7 @@ console.log(rpn.revert([ '1', '2', '3', '*', '+' ]));    // -> ["1", "+", "2", "
 ```
 
 ## Testing
-rpncc uses ava for testing. You can run test cases by installing dependencies then run "npm test" command.
+rpncs uses ava for testing. You can run test cases by installing dependencies then run "npm test" command.
 ```console
 $ npm install
 $ npm test
