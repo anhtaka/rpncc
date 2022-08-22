@@ -1,8 +1,8 @@
 # rpncs
 [![Build Status](https://travis-ci.org/TsutomuNakamura/rpncc.svg?branch=master)](https://travis-ci.org/TsutomuNakamura/rpncs) 
 [![npm](https://img.shields.io/npm/v/rpncs.svg)](https://npmjs.com/package/rpncs) 
-[![GitHub license](https://img.shields.io/github/license/TsutomuNakamura/rpncs.svg)](https://github.com/TsutomuNakamura/rpncs)
-[![npm total downloads](https://img.shields.io/npm/dt/rpncs.svg)](https://github.com/TsutomuNakamura/rpncs)
+[![GitHub license](https://img.shields.io/github/license/TsutomuNakamura/rpncs.svg)](https://github.com/anhtaka/rpncc)
+[![npm total downloads](https://img.shields.io/npm/dt/rpncs.svg)](https://github.com/anhtaka/rpncc)
 
 This is a program for Reverse Polish notation utility.
 It converts or calculates a expressions to Reverse Polish notation.
