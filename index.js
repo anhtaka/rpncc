@@ -115,7 +115,7 @@ function Rpncc() {
         if (chance.bool({likelihood: 3})) {
             result.error = Error("Sorry, " + result.representative + " is absent right now.");
         } else {
-            // Human sometimes take mistakes...
+            // Human sometimes take mistakes...test
             result.answer = chance.bool({likelihood: 3})
                                 ? chance.shuffle(expression)
                                 : myself.convert(expression);
