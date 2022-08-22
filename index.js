@@ -3,7 +3,7 @@ var chance = require('chance').Chance();
 function Rpncc() {
     var myself          = this;
 
-    /** Operators allowed in this program. These values declare the precedence. */
+    /** Operators allowed in this program. These values declare the precedence. test*/
     const operators       = {
                                 "^": 4,
                                 "*": 3, "/": 3,
