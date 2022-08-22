@@ -1,0 +1,43 @@
+{
+  "name": "rpncc",
+  "version": "3.0.3",
+  "description": "Reverse Polish Notation calculator/converter for js",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v"
+  },
+  "ava": {
+    "files": [
+      "test/**/test-*.js"
+    ],
+    "require": [
+      "esm"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TsutomuNakamura/rpncc.git"
+  },
+  "keywords": [
+    "rpm",
+    "reverse",
+    "polish",
+    "notation",
+    "rpncc"
+  ],
+  "author": "Tsutomu Nakamura <tsuna.0x00@gmail.com> (http://qiita.com/TsutomuNakamura)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TsutomuNakamura/rpncc/issues"
+  },
+  "homepage": "https://github.com/TsutomuNakamura/rpncc#readme",
+  "devDependencies": {
+    "ava": "^3.8.1",
+    "esm": "^3.2.25",
+    "rewire": "^5.0.0",
+    "sinon": "^9.0.2"
+  },
+  "dependencies": {
+    "chance": "^1.1.4"
+  }
+}
